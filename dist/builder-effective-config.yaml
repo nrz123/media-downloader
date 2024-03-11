@@ -1,0 +1,13 @@
+directories:
+  output: dist
+  buildResources: build
+extends: null
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+files:
+  - filter:
+      - ./build/**/*
+      - ./src/preload.js
+      - ./src/main.js
+electronVersion: 28.2.6
