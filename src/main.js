@@ -33,19 +33,6 @@ ipcMain.on('web', (event, url) => {
             preload: appPath + '/src/preload.js'
         }
     })
-    win.webContents.setWindowOpenHandler(detail => {
-        let { url } = detail
-        view.webContents.executeJavaScript('window.runApi.LoadOptions()').then(loadOptions => {
-            view.webContents.loadURL(url, loadOptions ? {
-                postData: [{
-                    type: "rawData",
-                    bytes: Buffer.from(encode(loadOptions.data, loadOptions.charset).replace(/%3D/g, "=").replace(/%26/g, "&"))
-                }],
-                extraHeaders: "Content-Type:" + loadOptions.enctype
-            } : {})
-        })
-        return { action: 'deny' }
-    })
     let init = w => {
         w.webContents.on('did-create-window', newWin => {
             init(newWin)
