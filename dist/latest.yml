@@ -1,8 +1,8 @@
 version: 0.0.1
 files:
   - url: media-downloader-Setup-0.0.1.exe
-    sha512: MHv4p0ogXJo2dAnCialjKC55bNRWPIR+YJE9565nrRUjzrjY/0oSVhSBLQTZ3dUlIf1Fh17LPNmiCxmO+D5idg==
-    size: 76691858
+    sha512: m4TW1Ey0mOY+r9+mfINbwqiERrO9NdfAfga/dirvGwZYiImeNe/VfLO3IeLqpFJhXncJGgA/9ZHjGiUvdxu6pQ==
+    size: 76691720
 path: media-downloader-Setup-0.0.1.exe
-sha512: MHv4p0ogXJo2dAnCialjKC55bNRWPIR+YJE9565nrRUjzrjY/0oSVhSBLQTZ3dUlIf1Fh17LPNmiCxmO+D5idg==
-releaseDate: '2024-03-11T08:32:01.487Z'
+sha512: m4TW1Ey0mOY+r9+mfINbwqiERrO9NdfAfga/dirvGwZYiImeNe/VfLO3IeLqpFJhXncJGgA/9ZHjGiUvdxu6pQ==
+releaseDate: '2024-04-23T06:14:01.247Z'
